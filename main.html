@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>WeStartgram</title>
+  <link rel="icon" href="./img/instar-logo.png" type="image/x-icon">
+  <link href="style/common.css" rel="stylesheet" type="text/css" />
+  <link href="style/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav-container">
+      <nav class="gnb-nav">
+        <div class="nav-size logo">
+          <a href="#">
+            <img id="logo" src="img/logo_text1.png" alt="logo">
+          </a>
+        </div>
+
+        <div class="gnb-search">
+          <div class="serch-box">
+            <span id="search-icon"></span>
+            <span id="search-span">검색</span>
+          </div>
+          <input id="search" type="text" placeholder="">
+        </div>
+
+        <div class="gnb-menu">
+          <div class="nav-size menu">
+            <ul>
+              <li><a href="#home"><span id="home-icon"></span></a></li>
+              <li><a href="#direct"><span id="direct-icon"></span></a></li>
+              <li><a href="#searchPerson"><span id="search-person-icon"></span></a></li>
+              <li><a href="#feed"><span id="feed-icon"></span></a></li>
+              <li><a href="#myInfo"><span id="myinfo-icon"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="main-container">
+      <main class="gnb-main">
+        <div class="left-container">
+          <div id="OPF">
+            <ul class="OPF-items">
+              <div class="gradient-border">
+                <li><img src="./img/Dan.png" alt="myPicture"></li>
+              </div>
+              <div class="gradient-border">
+                <li><img src="" alt=""></li>
+              </div>
+              <div class="gradient-border">
+                <li><img src="" alt=""></li>
+              </div>
+              <div class="gradient-border">
+                <li><img src="" alt=""></li>
+              </div>
+              <div class="gradient-border">
+                <li><img src="" alt=""></li>
+              </div>
+              <div class="gradient-border">
+                <li><img src="" alt=""></li>
+              </div>
+              <div class="gradient-border">
+                <li><img src="" alt=""></li>
+              </div>
+            </ul>
+          </div>
+
+          <div class="FP-container">
+            <div id="FP">
+              <div class="FP-info">
+                <a href="#">
+                  <img id="feedimg" src="./img/Dan.png" alt="myPicture">
+                </a>
+                <span>DongKyoung</span>
+                <img id="more" src="./img/more.png" alt="more">
+              </div>
+
+              <div class="FP-Pic">
+                <img id="feedPic" src="./img/Dan.png" alt="feedPicture">
+              </div>
+
+              <div class="FP-like-container">
+                <div class="FP-like">
+                  <section class="FP-icon">
+                    <a href="#feed"><span id="feed-icon"></span></a>
+                    <a href="#comment"><span id="comment-icon"></span></a>
+                    <a href="#direct"><span id="direct-icon"></span></a>
+                    <a href="#share"><span id="share-icon"></span></a>
+                  </section>
+
+                  <section class="FP-likeCount">
+                    <button type="button">
+                      <p>좋아요 100개</p>
+                    </button>
+                  </section>
+
+                  <div class="FP-commentView">
+                    <div class="comment">
+                      <a title="users">user</a> &nbsp;
+                      <span>안녕하세요!</span>
+                    </div>
+                  </div>
+
+                  <div class="FP-time">
+                    <div>
+                      <a href="#">
+                        <time datetime="">1일전</time>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="FP-comment-container">
+                <section class="FP-comment">
+                  <div class="FP-comment-div">
+                    <form action="#">
+                      <textarea id="FP-textarea" aria-label="댓글 달기" placeholder="댓글 달기..."></textarea>
+                      <button id="comment-submit" type="button">게시</button>
+                    </form>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-container">
+          <div id="MF">
+            <a href="#"><img id="profile" src="./img/Dan.png" alt="myPicture"></a>
+            <span>Dong Kyoung</span>
+          </div>
+
+          <div id="RD">
+            <div>
+              회원님을 위한 추천
+            </div>
+            <a href="#">
+              <div>
+                모두 보기
+              </div>
+            </a>
+          </div>
+
+          <div id="Follow">
+            <div class="follow-detail">
+              <a href="#"><img src="./img/Dan.png" alt="myPicture"></a>
+              <div class="follow-aside">
+                <a href="#">Dong Kyoung</a>
+                <div>회원님을 팔로우합니다</div>
+              </div>
+            </div>
+          </div>
+
+          <footer id="footer">
+            <div class="footer-container">
+              <ul>
+                <li>소개</li>
+                <li>도움말</li>
+                <li>홍보 센터</li>
+                <li>API</li>
+                <li>채용 정보</li>
+                <li>개인정보처리방침</li>
+                <li>약관</li>
+                <li>위치</li>
+                <li>인기 계정</li>
+                <li>해시태그</li>
+                <span>언어</span>
+              </ul>
+            </div>
+
+            <div class="instargram-right">
+              © 2020 INSTAGRAM FROM FACEBOOK
+            </div>
+          </footer>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
